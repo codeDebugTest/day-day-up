@@ -16,8 +16,10 @@
     ```
 
 * v-show
-    > **注意，v-show 不支持 <template> 元素，也不支持 v-else**
+    > **注意，v-show 不支持 <template> 元素，也不支持 v-else**   
+
 
 * v-for refs
-    > When ref is used together with v-for, the ref you get will be an array containing the child components mirroring the data source. **But take note that v-for refs do not guarantee the same order as your source Array.**
-    [讨论](https://github.com/vuejs/vue/issues/4952)
+    > When ref is used together with v-for, the ref you get will be an array containing the child components mirroring the data source. **But take note that v-for refs do not guarantee the same order as your source Array.** .  
+   
+   [讨论](https://github.com/vuejs/vue/issues/4952)
