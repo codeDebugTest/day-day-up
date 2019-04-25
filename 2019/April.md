@@ -23,7 +23,7 @@
 * v-show
     > **注意，v-show 不支持 <template> 元素，也不支持 v-else**  
  
- ## 25
+## 25
 * get latest version of package
     - npm show {pkg} version
     ``` javascript
