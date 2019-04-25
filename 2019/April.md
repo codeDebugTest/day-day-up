@@ -22,4 +22,18 @@
 
 * v-show
     > **注意，v-show 不支持 <template> 元素，也不支持 v-else**  
-    
+ 
+ ## 25
+* get latest version of package
+    - npm show {pkg} version
+    ``` javascript
+        const exec = require('child_process').execSync;
+        let version = exec(`npm show ${pkg} version`);
+    ```
+    - latest-version
+    ``` javascript
+        const latestVersion = require('lastest-verion');
+        async function getPkgLastestVersion(pkg) {
+            return await lastestVersion(pkg);
+        }
+    ```
