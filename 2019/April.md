@@ -20,6 +20,10 @@
    
    [讨论](https://github.com/vuejs/vue/issues/4952)  
 
+* v-show
+    > 注意： v-show不支持<template>元素，也不支持 v-else  
+
+
 ## 25
 * get latest version of package
     - npm show {pkg} version
