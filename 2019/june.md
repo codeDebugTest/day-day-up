@@ -4,6 +4,21 @@
 * [单点登录](https://yq.aliyun.com/articles/636281)
 * [单点登录实现](https://www.cnblogs.com/ZenoLiang/p/8334614.html)
 
+## 29
+怎样创建一个包含1....n的数组？
+``` javascript
+[...Array(10).keys()] // 0,1,2,3......9
+```
+or
+``` javascript
+// map's second param is thisArg ,执行 callback 函数时使用的this 值。
+Array.from({length: 10}).map(Number.call, Number) 
+```
+or
+``` javascript
+Array(10).fill().map((item, index) => index)
+```
+
 ## 30
 ### svg 处理
 #### raw-loader 
