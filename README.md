@@ -1,5 +1,7 @@
 # day-day-up
-write code well and make progress every day.
+> write code well and make progress every day.    
+好脑子不如‘烂笔头’，避免重复性错误，重复记忆。
+
 
 ## 2019
 ### 四月
