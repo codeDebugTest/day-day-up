@@ -1,7 +1,8 @@
 # 三月
 
 ## 10
-video标签中的播放是异步地，video.play()返回一个promise.
+**video标签中的播放是异步地，video.play()返回一个promise.**
+  
 背景：
 ```javascript
   <video id=“video” preload="none" src="http://xxxx.mp4"></video>
